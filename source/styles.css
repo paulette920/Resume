@@ -36,3 +36,24 @@ h1 {
   color: white;
   font-size: 24px;
 }
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    width: 100%;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .nav-links a {
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+  }
+}
