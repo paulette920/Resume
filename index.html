@@ -7,21 +7,28 @@
     <link rel="stylesheet" href="source/styles.css" />
   </head>
   <body>
-    <nav class="navigation-bar">
-      <a href="#" class="navigation-link">Home</a>
-      <a href="#" class="navigation-link">About me</a>
-      <a href="#" class="navigation-link">Projects</a>
-      <a href="#" class="navigation-link">Contact Me</a>
-    </nav>
+    <header>
+      <nav class="navigation-bar">
+        <button class="menu-toggle">☰</button>
+        <div class="nav-link">
+          <a href="#" class="navigation-link">Home</a>
+          <a href="#" class="navigation-link">About me</a>
+          <a href="#" class="navigation-link">Projects</a>
+          <a href="#" class="navigation-link">Contact Me</a>
+        </div>
+      </nav>
+    </header>
     <section>
-      <img src="images/mine.jpg" alt="my-picture" width="300" />
-      <h1>ABOUT ME:</h1>
-      <p>
-        I am currently a student at African Leadership University(ALU), Doing
-        Bachelors of software engineering. I’m looking for a chance to join a
-        team where I can keep improving my web development and software design
-        skills while making a real impact.
-      </p>
+      <div class="about-me">
+        <h1>ABOUT ME:</h1>
+        <p class="about-me-p">
+          I am currently a student at African Leadership University(ALU), Doing
+          Bachelors of software engineering. I’m looking for a chance to join a
+          team where I can keep improving my web development and software design
+          skills while making a real impact.
+        </p>
+        <img src="images/pau.jpg" alt="my-picture" class="my-picture" />
+      </div>
       <h2>SKILLS</h2>
       <ul>
         <li>Problem Solving</li>
@@ -69,18 +76,22 @@
         enginnering at ALU
       </p>
     </div>
-    <div class="contact-me">
-      <h5>Contact Me</h5>
-      <div><a href="#" target="_blank">Email</a></div>
-      <div>
-        <a href="https://www.instagram.com/accounts/login/" target="_blank"
-          >Instagram</a
-        >
+
+    <section id="projects"></section>
+    <section id="contact">
+      <div class="contact-me">
+        <h5>Contact Me</h5>
+        <span class="email"><a href="#" target="_blank">Email</a></span>
+        <span>
+          <a href="https://www.instagram.com/accounts/login/" target="_blank"
+            >Instagram</a
+          >
+        </span>
+        <span>
+          <a href="https://www.linkedin.com/login" target="_blank">Linked in</a>
+        </span>
       </div>
-      <div>
-        <a href="https://www.linkedin.com/login" target="_blank">Linked in</a>
-      </div>
-    </div>
+    </section>
     <footer></footer>
     <script src="source/script.js"></script>
   </body>

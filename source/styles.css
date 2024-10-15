@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+  color: white;
+}
+h1 {
+  padding: 10px 0;
+  text-align: center;
+}
+.about-me-p {
+  padding: 10px;
+  line-height: 1.5;
+}
+.my-picture {
+  padding: 8px 0;
+  height: 400px;
+  width: 450px;
+  box-shadow: 10px 5px 5px rgb(69, 67, 67);
+}
+.navigation-bar {
+  padding: 10px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation-link {
+  color: white;
+  border-radius: 5px;
+  text-align: right;
+  padding: 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.navigation-link:hover {
+  color: rgb(155, 118, 189);
+}
+.about-me {
+  width: 100%;
+  border: 2px solid rgb(69, 67, 67);
+  display: flex;
+  justify-content: center;
+}
