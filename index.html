@@ -4,31 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume - Dushime Paulette</title>
-    <link rel="stylesheet" href="source/styles.css" />
   </head>
   <body>
-    <header>
-      <nav class="navigation-bar">
-        <button class="menu-toggle">☰</button>
-        <div class="nav-links">
-          <a href="#" class="navigation-link">Home</a>
-          <a href="#" class="navigation-link">About me</a>
-          <a href="#" class="navigation-link">Projects</a>
-          <a href="#" class="navigation-link">Contact Me</a>
-        </div>
-      </nav>
-    </header>
-    <section id="about">
-      <div class="about-me">
-        <h1>ABOUT ME:</h1>
-        <p class="about-me-p">
-          I am currently a student at African Leadership University(ALU), Doing
-          Bachelors of software engineering. I’m looking for a chance to join a
-          team where I can keep improving my web development and software design
-          skills while making a real impact.
-        </p>
-        <img src="images/pau.jpg" alt="my-picture" class="my-picture" />
-      </div>
+    <nav class="navigation-bar">
+      <a href="#" class="navigation-link">About me</a>
+      <a href="#" class="navigation-link">Projects</a>
+      <a href="#" class="navigation-link">Contact Me</a>
+    </nav>
+    <section>
+      <h1>ABOUT ME:</h1>
+      <p>
+        I am currently a student at African Leadership University(ALU), Doing
+        Bachelors of software engineering. I’m looking for a chance to join a
+        team where I can keep improving my web development and software design
+        skills while making a real impact.
+      </p>
       <h2>SKILLS</h2>
       <ul>
         <li>Problem Solving</li>
@@ -53,46 +43,83 @@
         </p>
       </ul>
     </section>
-    <div class="education">
-      <div class="years">
-        <h3>Education</h3>
-        <span>2008 - 2014</span>
-        <span>2015 - 2018</span>
-        <span>2019 - 2020</span>
-        <span>2021-2022</span>
-      </div>
-      <div class="name-school">
-        <span>Orpcare Nursery and Primary School</span>
-        <span>Montfort Secondary School</span>
-        <span>Nu vision High School</span>
-        <span>King David Academy</span>
-      </div>
-    </div>
-    <div class="work-experience">
-      <h4>Work Experience</h4>
+    <hr />
+    <div class="projects">
+      <div class="weather-heading">WEATHER PROJECT</div>
+      <a
+        href="https://forecast-weather-app-shecodes-pau.netlify.app/"
+        target="_blank"
+      >
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/147/954/original/weather_project.png?1729355509"
+          alt="weather_project"
+          class="weather_project"
+          width="300"
+        />
+      </a>
       <p>
-        I did Shecodes plus and gained HTML, Css and Javascript knowledge and
-        also still learning more of web development and doing software
-        enginnering at ALU
+        The weather project shows the current day, temperature and time for any
+        city in the world
+      </p>
+      <div class="Counter-heading">COUNTER PROJECT</div>
+      <a href="https://counter-project-app.netlify.app/" target="_blank">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/147/956/original/counter1.jpg?1729355543"
+          alt="weather_project"
+          class="weather_project"
+          width="300"
+        />
+      </a>
+      <p>
+        The Counter project can decrease numbers and has an increase button to
+        increase numbers and reset button to rest all numbers to zero.
+      </p>
+
+      <div class="forecast-heading">WEATHER FORECAST PROJECT</div>
+      <a
+        href="https://weather-app-with-forecast-shecodes.netlify.app/"
+        target="_blank"
+      >
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/147/958/original/FORECAST.jpg?1729356449"
+          alt="weather_project"
+          class="weather_project"
+          width="300"
+        />
+      </a>
+      <p>
+        The Weather with forecast shows the temperatures of all cities and also
+        can show the temperature of the users, also on different days.
+      </p>
+
+      <div class="clock-heading">World CLOCK PROJECT</div>
+      <a
+        href="https://world-clock-dushime-paulette.netlify.app/"
+        target="_blank"
+      >
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/147/957/original/World-Clock-2.png?1729355563"
+          alt="weather_project"
+          class="weather_project"
+          width="300"
+        />
+      </a>
+      <p>
+        The world clock project shows the time in different cities in the world
+        and also can show the current time of the user
       </p>
     </div>
-
-    <section id="projects"></section>
-    <section id="contact">
-      <div class="contact-me">
-        <h5>Contact Me</h5>
-        <span class="email"><a href="#" target="_blank">Email</a></span>
-        <span>
-          <a href="https://www.instagram.com/accounts/login/" target="_blank"
-            >Instagram</a
-          >
-        </span>
-        <span>
-          <a href="https://www.linkedin.com/login" target="_blank">Linked in</a>
-        </span>
-      </div>
+    <hr />
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p>
+        Email:
+        <a href="mailto:p.dushime1@alustudent.com">p.dushime1@alustudent.com</a>
+      </p>
     </section>
-    <footer></footer>
-    <script src="source/script.js"></script>
+
+    <footer>
+      <p>&copy; 2024 Paulette's Portfolio. All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
